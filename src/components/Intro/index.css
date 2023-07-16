@@ -1,0 +1,33 @@
+
+.intro{
+    position: relative;
+
+}
+.intro-image-wrapper{
+    position: absolute;
+    height: 350px;
+    top: 0;
+    left: -20%;
+    z-index: 4;
+}
+.intro-image-wrapper img{
+    height: 650px;
+    border-radius: 450px;
+}
+.intro-image-wrapper-right{
+    position: absolute;
+    padding: 10px;    
+    bottom: -5%;
+    right: -10%;
+    z-index: 4;
+    
+}
+
+.intro-image-wrapper-right img{
+    height: 440px;
+    border-radius: 450px;
+}
+.copyRight{
+    position: absolute;
+    bottom:3%;
+}
